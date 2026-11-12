@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎯 Goal
 
 We want to deploy the API inside our container to the cloud so that anybody can access it! [Cloud Run](https://cloud.google.com/run?hl=en) on GCP allows you to deploy containerized applications in a fully managed environment. You package your code in a Docker container, upload it to GCP, and Cloud Run handles scaling, load balancing, and HTTPS. It abstracts away infrastructure management letting you focus on code.
@@ -61,3 +62,7 @@ It might take a few minutes for your API to be provisioned on Cloud Run and assi
 We have now set up a basic deployment! But we want to add CI/CD in our next exercise in to implement best practices like testing and automated deployment!
 
 <br>
+=======
+# FastApi
+fastapi CI/CD test
+>>>>>>> 2ab2010155dfdc6d51af0db10628fb606934053e
