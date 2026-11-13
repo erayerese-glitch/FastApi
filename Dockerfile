@@ -21,8 +21,7 @@ ENV PATH="${PATH}:/home/runner/.local/bin"
 
 COPY pyproject.toml poetry.lock ./
 
-RUN pip install --upgrade pip \
-    && pip install --no-cache-dir poetry \
+RUN pip install --no-cache-dir poetry==2.5.1 \
     && poetry install --only main
 
 COPY app/ app/
